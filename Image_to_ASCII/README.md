@@ -2,6 +2,7 @@
 一个将图片按灰度转换为字符画的小工具
 ***
 灰度的计算公式为：
+
   gray ＝ 0.2126 * r + 0.7152 * g + 0.0722 * b
 ***
 用到的库有：pillow(PIL)、argparse
@@ -11,7 +12,7 @@
 * [Argparse简易教程](https://blog.ixxoo.me/argparse.html)
 * [官方文档](https://docs.python.org/2/library/argparse.html)
 
-**Python Imaging Library**，或者叫PIL，简略来说，是Python图像操作的核心库（据说早已停止开发）。**Pillow**是一个对 PIL 友好的一个分支，其中的Image类，被用于从文件中读取图片。
+**Python Imaging Library**，或者叫PIL，是Python图像操作的核心库（据说早已停止开发）。**Pillow**是一个对 PIL 友好的一个分支，其中的Image类，被用于从文件中读取图片。
 参考：
 * [Python图像处理库：Pillow 初级教程](http://www.cnblogs.com/wbin91/p/3971079.html)
 * [Pillow 中文文档](http://pillow-cn.readthedocs.io/zh_CN/latest/)
