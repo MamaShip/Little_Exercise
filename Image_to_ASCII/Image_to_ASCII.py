@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('file')     
 parser.add_argument('-o', '--output')   
-parser.add_argument('--width', type = int, default = 80) 
+parser.add_argument('--width', type = int, default =100) 
 parser.add_argument('--height', type = int, default = 80) 
 
 
